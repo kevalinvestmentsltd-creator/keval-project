@@ -1,0 +1,4 @@
+[build]
+  base = "keval_web"
+  command = "pnpm install --frozen-lockfile && pnpm run generate"
+  publish = "dist"
